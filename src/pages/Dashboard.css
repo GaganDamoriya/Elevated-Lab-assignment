@@ -1,0 +1,39 @@
+.Dashboard {
+  max-height: calc(100vh + 100%);
+  font-family: "Segoe UI";
+}
+.Herobanner {
+  color: white;
+  background-size: cover;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: max(30%, 450px); */
+}
+
+.herocontent {
+  width: 70%;
+  margin: 0 auto;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+.navHeader {
+  display: flex;
+  align-items: center;
+}
+.outlet-rend {
+  overflow-y: auto;
+}
+@media screen and (max-width: 580px) {
+  .Herobanner {
+    height: 250px;
+  }
+  .heading {
+    font-size: 1.1rem;
+  }
+}

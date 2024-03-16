@@ -1,0 +1,26 @@
+.category-heading {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+.category-heading h1 {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.display-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+/* search-sytleing */
+.Search-tab {
+  width: 70%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 580px) {
+  .display-products {
+    grid-template-columns: 1fr;
+  }
+}
